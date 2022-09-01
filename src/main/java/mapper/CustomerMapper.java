@@ -7,8 +7,6 @@ import org.mapstruct.factory.Mappers;
 
 @Mapper
 public class CustomerMapper {
-    //CustomerMapper INSTANCE= Mappers.getMapper(CustomerMapper.class);
-    //CustomerDTO CustomerToCustomerDTO(Customer customer);
     public static CustomerDTO buildCustomerDTO(Customer customer){
         return null;
     }

@@ -1,4 +1,14 @@
 package dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Setter
+@Getter
 public class CustomerDTO {
     private Long id;
     private String lastname;
@@ -10,5 +20,5 @@ public class CustomerDTO {
     private String zipCode;
     private String city;
     private String country;
-    private int state;
+    private String state;
 }

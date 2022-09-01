@@ -10,5 +10,5 @@ public class CustomerDTO {
     private String zipCode;
     private String city;
     private String country;
-    private Boolean state;
+    private int state;
 }
